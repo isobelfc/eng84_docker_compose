@@ -14,7 +14,8 @@ RUN npm install
 # expose the port for our app
 EXPOSE 3000
 
-# CMD ["node", "models/public/seeds/seed.js"]
+# ENTRYPOINT ["node", "seeds/seed.js"]
+# RUN nodejs seeds/seed.js
 
 # launch the app
-CMD ["node", "app.js"]
+# CMD ["node", "app.js"]

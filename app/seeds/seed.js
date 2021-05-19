@@ -22,7 +22,6 @@ if(process.env.DB_HOST) {
         mongoose.connection.close();
         console.log("Database Seeded");
       }
-    }); 
+    });
   }
 }
-
